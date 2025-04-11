@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="container">
+
+        <ul>
+            <li>designer & quotes</li>
+            <li>098</li>
+            <li>bazen.</li>
+        </ul>
+
+        <div class="body">A designer is a planner with an aesthetic sense.</div>
+        <div class="body2">bruno munari</div>
+
+        <p id="item">Bruno was an italian artist, designer, and inventor who contributed fundamentals to many fields of virtual arts in modernism, futurism, and concrete art, and in non-visual art with his research on games, didactic method, movement, tactile learning, kinesthetic learning  and creativity.</p>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="download (1).jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="download.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="download.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Free_MacBook_Pro_1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images (1).jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <video src="web animation.mp4" autoplay="autoplay" loop></video>
+                </div>
+                <div class="swiper-slide">
+                    <img src="profile-animation.jpg" alt="">
+                </div>
+              </div>
+            </div>
+    </div>
+
+    
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+      },});
+  </script>
+</body>
+</html>
